@@ -1,0 +1,395 @@
+project,issue_key,code,reason
+DATALAB,DATALAB-1207,1,scope expanded (old task is only part of the whole scope)
+DATALAB,DATALAB-1238,4,detail added - implementation details (implementation detail is updated)
+DATALAB,DATALAB-1312,4,detail added - implementation details (add 1 more err message)
+DATALAB,DATALAB-1346,3,detail added - additional description
+DATALAB,DATALAB-1348,3,detail added - additional description
+DATALAB,DATALAB-1349,0,typo
+DATALAB,DATALAB-1365,2,scope defined
+DATALAB,DATALAB-1424,0,minor detail added
+DATALAB,DATALAB-1425,1,scope changed
+DATALAB,DATALAB-1496,0,work items organizing
+DATALAB,DATALAB-1542,3,detail added - additional description (the task is the same but more detail is added in the user story)
+DATALAB,DATALAB-1744,4,detail added - implementation details
+DATALAB,DATALAB-1773,0,work logging
+DATALAB,DATALAB-1775,1,scope expanded
+DATALAB,DATALAB-1776,1,scope expanded
+DATALAB,DATALAB-1777,1,scope changed (from implementing to only investigating)
+DATALAB,DATALAB-1783,1,scope expanded
+DATALAB,DATALAB-1790,1,scope expanded
+DATALAB,DATALAB-1796,1,scope expanded
+DATALAB,DATALAB-1805,0,work logging
+DATALAB,DATALAB-1806,1,scope expanded
+DATALAB,DATALAB-1818,1,scope expanded
+DATALAB,DATALAB-1836,0,work items organizing
+DATALAB,DATALAB-1845,0,work logging
+DATALAB,DATALAB-1913,1,scope reduced
+DATALAB,DATALAB-1943,1,scope expanded (to cover new tasks)
+DATALAB,DATALAB-1960,1,scope expanded
+DATALAB,DATALAB-1970,1,scope expanded
+DATALAB,DATALAB-1971,1,scope expanded
+DATALAB,DATALAB-1976,1,scope changed
+DATALAB,DATALAB-1977,1,scope changed (from add checkbox to add information)
+DATALAB,DATALAB-1981,2,scope defined (this work is for EMR)
+DATALAB,DATALAB-1989,1,scope expanded
+DATALAB,DATALAB-1998,0,work logging
+DATALAB,DATALAB-2063,0,typo
+DATALAB,DATALAB-2064,0,typo
+DATALAB,DATALAB-2066,3,detail added - additional description
+DATALAB,DATALAB-2068,0,typo
+DATALAB,DATALAB-2232,3,detail added - additional description
+DATALAB,DATALAB-416,2,scope defined (for a placeholder)
+DATALAB,DATALAB-454,0,work items organizing
+DATALAB,DATALAB-515,1,scope expanded
+DATALAB,DATALAB-553,0,work items organizing
+DATALAB,DATALAB-560,0,work items organizing
+DATALAB,DATALAB-561,0,work items organizing
+DATALAB,DATALAB-562,0,work items organizing
+DATALAB,DATALAB-565,3,detail added - additional description
+DATALAB,DATALAB-599,0,rephrasing
+DATALAB,DATALAB-623,0,rephrasing
+DATALAB,DATALAB-625,0,rephrasing & work items organizing
+DATALAB,DATALAB-627,0,rephrasing
+DATALAB,DATALAB-639,2,scope defined (+general limit)
+DATALAB,DATALAB-667,4,detail added - implementation details
+DATALAB,DATALAB-668,2,scope defined (cover exp. env. and comp. res.)
+DATALAB,DATALAB-669,2,scope defined (cover exp. env. and comp. res.)
+DATALAB,DATALAB-830,4,"detail added - implementation details (add more project status to convey, but only minor)"
+DATALAB,DATALAB-831,0,text formatting
+DM,DM-10035,1,scope reduced
+DM,DM-10463,1,scope expanded
+DM,DM-11190,4,detail added - implementation details
+DM,DM-11476,0,work logging
+DM,DM-13959,0,typo
+DM,DM-14116,0,work logging (show what is learned)
+DM,DM-14117,4,detail added - implementation details
+DM,DM-14333,1,scope changed
+DM,DM-15049,2,scope defined
+DM,DM-1587,1,scope changed
+DM,DM-1627,1,scope changed
+DM,DM-16667,4,detail added - implementation details
+DM,DM-1695,2,scope defined
+DM,DM-1698,2,scope defined
+DM,DM-17144,1,scope expanded
+DM,DM-17217,2,scope defined
+DM,DM-17328,0,work logging
+DM,DM-17835,1,scope expanded
+DM,DM-18004,1,scope changed
+DM,DM-18244,1,scope changed (from whitelist to authlist test tool)
+DM,DM-1868,1,scope changed
+DM,DM-19249,1,scope expanded (as they might need to write a dev rule)
+DM,DM-19268,1,scope changed
+DM,DM-22170,1,scope expanded
+DM,DM-22171,4,detail added - implementation details
+DM,DM-22557,1,scope expanded
+DM,DM-24615,1,scope changed
+DM,DM-24792,2,scope defined
+DM,DM-24860,2,scope defined
+DM,DM-25627,1,scope expanded
+DM,DM-26517,4,detail added - implementation details
+DM,DM-26536,1,scope changed
+DM,DM-26596,2,scope defined
+DM,DM-27017,2,scope defined
+DM,DM-27328,1,detail added
+DM,DM-28443,1,scope reduced
+DM,DM-28578,1,scope changed (tasks to do were changed)
+DM,DM-28976,2,scope defined
+DM,DM-29302,1,scope expanded
+DM,DM-29553,2,scope defined
+DM,DM-29566,1,scope changed
+DM,DM-3199,3,detail added - additional description
+DM,DM-3574,1,scope changed
+DM,DM-3591,3,detail added - additional description
+DM,DM-3971,4,detail added - implementation details
+DM,DM-4482,2,scope defined
+DM,DM-4485,2,scope defined
+DM,DM-4493,1,scope expanded (to cover re-center task)
+DM,DM-4496,0,text formatting
+DM,DM-4502,0,minor detail added
+DM,DM-4504,2,scope defined
+DM,DM-4958,1,scope changed
+DM,DM-5185,4,detail added - implementation details
+DM,DM-5276,1,scope expanded
+DM,DM-5688,0,work logging
+DM,DM-5689,0,work logging
+DM,DM-5794,3,detail added - additional description
+DM,DM-6500,1,scope expanded
+DM,DM-6929,4,"detail added - implementation details (this dev includes… is the implementation detail, the scope - support circular… is not modified.)"
+DM,DM-7090,0,rephrasing
+DM,DM-7511,1,scope expanded
+DM,DM-7802,2,scope defined
+DM,DM-7803,1,scope expanded
+DM,DM-7986,1,scope expanded
+DM,DM-8222,2,scope defined
+DM,DM-8405,1,scope expanded
+DM,DM-8707,1,scope expanded to cover scatter plot
+DM,DM-8758,0,work logging
+DM,DM-9803,1,scope expanded (add subtasks)
+MESOS,MESOS-1344,1,scope changed (from ACL[ to JSON)
+MESOS,MESOS-1913,1,scope changed (stream/connection -> socket)
+MESOS,MESOS-1931,2,scope defined (pluggable /  for the mesos containerizer.)
+MESOS,MESOS-2138,1,scope changed (from ‘update master accept call handler’ to ‘add an offer operation message’)
+MESOS,MESOS-2408,4,detail added - implementation details
+MESOS,MESOS-4721,4,detail added - implementation details
+MESOS,MESOS-4722,3,detail added - additional description
+MESOS,MESOS-4723,3,detail added - additional description
+MESOS,MESOS-7570,0,detail removed
+MESOS,MESOS-7571,4,detail added - implementation details
+TDP,TDP-10033,4,detail added - implementation details
+TDP,TDP-2195,4,detail added - implementation details on the test and scenarios
+TDP,TDP-2454,2,scope defined (requirements defined in user story)
+TDP,TDP-2549,1,scope expanded (add 2 subtasks)
+TDP,TDP-2735,2,scope defined (out of scope defined)
+TDP,TDP-2746,1,scope changed
+TDP,TDP-2798,4,detail added - implementation details
+TDP,TDP-2800,0,rephrasing
+TDP,TDP-2801,1,scope changed (subtasks changed)
+TDP,TDP-2815,1,scope changed
+TDP,TDP-2816,4,detail added - implementation details
+TDP,TDP-2934,2,scope defined (user story)
+TDP,TDP-3012,1,scope changed
+TDP,TDP-3298,1,"scope expanded (to cover removal, and requirement to preserve current performance)"
+TDP,TDP-3310,1,scope expanded
+TDP,TDP-3329,2,scope defined (user story)
+TDP,TDP-3332,2,"scope defined (add detailed scope of work, the original description is a very vague one)"
+TDP,TDP-3333,2,scope defined
+TDP,TDP-3385,4,detail added - implementation details on test data and AC (scope is already defined)
+TDP,TDP-3460,2,scope defined (define that the function must only available only for some users)
+TDP,TDP-3599,0,typo
+TDP,TDP-3703,4,detail added - implementation detail (on how to enable expanded in display mode)
+TDP,TDP-4029,1,scope changed (not sort anymore but do many other things)
+TDP,TDP-4137,1,scope expanded
+TDP,TDP-4270,2,scope defined (user story)
+TDP,TDP-4390,1,scope defined
+TDP,TDP-4432,2,scope defined
+TDP,TDP-4528,2,scope defined (only add what to do while the main scope stays the same)
+TDP,TDP-4541,2,scope defined (expected)
+TDP,TDP-4557,2,scope defined
+TDP,TDP-4743,1,scope expanded
+TDP,TDP-4891,4,detail added - implementation details
+TDP,TDP-4932,2,scope defined
+TDP,TDP-4965,1,"scope expanded (a lot, old tasks are existed while many new tasks added)"
+TDP,TDP-5043,4,detail added - implementation details
+TDP,TDP-5214,1,scope expanded
+TDP,TDP-5292,1,scope expanded
+TDP,TDP-5395,4,detail added - implementation details
+TDP,TDP-5462,1,scope reduced (remove tasks)
+TDP,TDP-5776,1,scope expanded (the work need to be reverted)
+TDP,TDP-5807,2,scope defined (defined what to do to integrate JAP)
+TDP,TDP-5974,2,scope defined
+TDP,TDP-6211,1,scope expanded (all services not just apis)
+TDP,TDP-6292,4,detail added - implementation details - add acceptance criteria
+TDP,TDP-6346,1,scope expanded (to cover empty case)
+TDP,TDP-6528,1,scope changed
+TDP,TDP-6547,3,detail added - additional description
+TDP,TDP-6650,0,work logging
+TDP,TDP-6728,1,"scope changed (from create config for extract script, to add config to automatize export upload download)"
+TDP,TDP-6804,1,scope expanded
+TDP,TDP-6848,4,detail added - implementation details
+TDP,TDP-6941,3,detail added - additional description
+TDP,TDP-6949,1,scope reduced (not import the preparation anymore)
+TDP,TDP-6988,0,work items organizing
+TDP,TDP-7056,4,detail added - implementation details
+TDP,TDP-7075,4,detail added - implementation details
+TDP,TDP-7495,1,scope expanded
+TDP,TDP-7715,1,scope expanded
+TDP,TDP-7865,2,scope defined (user story)
+TDP,TDP-8303,4,detail added - implementation details (acceptance criteria)
+TDP,TDP-9014,4,detail added - implementation details
+TDP,TDP-9019,1,scope changed (from get artifacts to get or check md5 of the artifacts)
+TDP,TDP-9459,2,scope defined (about what is common app gateway)
+TDP,TDP-9518,2,scope defined (user story)
+TDP,TDP-9580,1,scope expanded
+TDP,TDP-9680,1,scope expanded
+TDP,TDP-9746,0,work items organizing
+TDP,TDP-9754,1,scope expanded (merge old full run history)
+TDP,TDP-9814,4,detail added - implementation details
+TDP,TDP-9861,1,scope expanded
+TDP,TDP-9863,3,detail added - additional description (why?)
+TDP,TDP-9881,4,"detail added - implementation details (related to implementation, where scope is already defined before, and there is only trivial changes)"
+TDP,TDP-9905,2,scope defined (user story)
+TDP,TDP-9927,1,scope changed
+TDQ,TDQ-10148,4,detail added - implementation details (use cases and UI)
+TDQ,TDQ-10344,1,scope expanded
+TDQ,TDQ-10508,1,scope changed
+TDQ,TDQ-12046,0,rephrasing
+TDQ,TDQ-12408,3,detail added - additional description
+TDQ,TDQ-12498,1,scope expanded
+TDQ,TDQ-12547,1,scope expanded (what should be done is expanded)
+TDQ,TDQ-12833,3,detail added - additional description
+TDQ,TDQ-12872,1,scope changed
+TDQ,TDQ-13301,1,scope changed (from choosing fonts to automatically choose fonts)
+TDQ,TDQ-13345,1,scope expanded
+TDQ,TDQ-13489,4,detail added - implementation details
+TDQ,TDQ-13499,4,detail added - implementation details (define how to do = implementation task to convert date to Julian and vice versa)
+TDQ,TDQ-13914,4,detail added - implementation details (on how to create maintenance task)
+TDQ,TDQ-14087,3,detail added - additional description
+TDQ,TDQ-14120,1,scope expanded (need to analyze TDQ-13913 too)
+TDQ,TDQ-14144,4,detail added - implementation details
+TDQ,TDQ-14207,2,"scope defined (that this should add new tab ""dict service"")"
+TDQ,TDQ-14368,1,scope expanded
+TDQ,TDQ-14409,2,scope defined
+TDQ,TDQ-14506,1,scope expanded
+TDQ,TDQ-14556,2,scope defined (two top user stories)
+TDQ,TDQ-14647,2,scope defined (that this ticket will test and fix bugs)
+TDQ,TDQ-14683,4,detail added - implementation details (use cases)
+TDQ,TDQ-14766,1,scope changed
+TDQ,TDQ-14832,4,detail added - implementation details
+TDQ,TDQ-14836,2,scope defined (they were not sure at first whether to simplify or remove)
+TDQ,TDQ-14912,1,scope expanded
+TDQ,TDQ-14932,1,scope expanded
+TDQ,TDQ-14978,1,scope changed (subtasks changed)
+TDQ,TDQ-15015,0,work logging
+TDQ,TDQ-15069,0,work logging
+TDQ,TDQ-15092,2,scope defined
+TDQ,TDQ-15121,2,scope defined
+TDQ,TDQ-15344,2,scope defined
+TDQ,TDQ-15467,4,detail added - implementation details
+TDQ,TDQ-15480,0,work items organizing
+TDQ,TDQ-15596,1,scope expanded
+TDQ,TDQ-15598,3,detail added - additional description
+TDQ,TDQ-15600,4,detail added - implementation details
+TDQ,TDQ-15696,4,"detail added - implementation details (by commenting it, not removing it)"
+TDQ,TDQ-15833,1,scope expanded
+TDQ,TDQ-15983,1,scope expanded
+TDQ,TDQ-16086,4,detail added - implementation details
+TDQ,TDQ-16219,4,detail added - implementation details
+TDQ,TDQ-16464,4,detail added - implementation details
+TDQ,TDQ-16583,4,detail added - implementation details
+TDQ,TDQ-16692,0,work logging
+TDQ,TDQ-16717,0,detail added
+TDQ,TDQ-16730,1,scope expanded
+TDQ,TDQ-16893,2,scope defined (with Definition of Ready)
+TDQ,TDQ-16910,1,scope expanded
+TDQ,TDQ-16928,4,detail added - implementation details (acceptance criteria)
+TDQ,TDQ-16986,2,scope defined
+TDQ,TDQ-16997,0,detail added
+TDQ,TDQ-17085,4,detail added - implementation details
+TDQ,TDQ-17122,1,scope changed (main task changed)
+TDQ,TDQ-17143,0,detail added
+TDQ,TDQ-17157,2,scope defined
+TDQ,TDQ-17164,2,scope defined
+TDQ,TDQ-17241,1,scope expanded
+TDQ,TDQ-17430,1,scope expanded
+TDQ,TDQ-17504,0,detail added (about the module to upgrade)
+TDQ,TDQ-17606,0,work logging
+TDQ,TDQ-17679,4,"detail added - implementation details (if does not count the impact report, the update is about func. req.)"
+TDQ,TDQ-18181,0,work logging
+TDQ,TDQ-18373,2,scope defined
+TDQ,TDQ-18757,4,detail added - implementation details (main task is still to support SAP Hana)
+TDQ,TDQ-18901,0,work items organizing
+TDQ,TDQ-5636,1,scope defined
+TDQ,TDQ-6338,1,scope expanded
+TDQ,TDQ-7058,1,scope changed
+TDQ,TDQ-7500,1,scope expanded (to cover database and hadoop)
+TDQ,TDQ-9209,2,scope defined
+TDQ,TDQ-9786,1,scope changed (from rec comp to MP comp)
+TDQ,TDQ-9895,4,detail added - implementation details (about set the batch id)
+TDQ,TDQ-9976,1,scope changed
+TIMOB,TIMOB-12330,3,detail added - additional description
+TIMOB,TIMOB-12331,4,detail added - implementation details
+TIMOB,TIMOB-16244,0,work items organizing
+TIMOB,TIMOB-16913,1,scope changed (from vpc to build)
+TIMOB,TIMOB-16914,1,scope changed (from vpc to build)
+TIMOB,TIMOB-16915,1,scope changed (from vpc to build)
+TIMOB,TIMOB-16916,1,scope changed (from vpc to build)
+TIMOB,TIMOB-17914,3,detail added - additional description
+TIMOB,TIMOB-17917,2,scope defined
+TIMOB,TIMOB-17918,3,detail added - additional description
+TIMOB,TIMOB-17925,0,work logging
+TIMOB,TIMOB-17926,0,work logging
+TIMOB,TIMOB-18027,4,detail added - implementation details (verification method)
+TIMOB,TIMOB-18028,4,detail added - implementation details (verification method)
+TIMOB,TIMOB-18029,4,detail added - implementation details (verification method)
+TIMOB,TIMOB-18031,4,detail added - implementation details (verification method)
+TIMOB,TIMOB-18035,4,detail added - implementation details
+TIMOB,TIMOB-18062,4,detail added - implementation details
+TIMOB,TIMOB-19184,4,detail added - implementation details (sample code)
+TIMOB,TIMOB-19203,3,detail added - additional description (explaining the problem and demo code)
+TIMOB,TIMOB-19205,4,detail added - implementation details
+TIMOB,TIMOB-8662,0,work logging
+TIMOB,TIMOB-8718,1,scope expanded (added without ticket)
+TIMOB,TIMOB-9074,1,scope changed (from AST to code processor)
+TIMOB,TIMOB-9075,1,scope changed (from AST to code processor)
+TIMOB,TIMOB-9076,1,scope changed (from AST to code processor)
+TIMOB,TIMOB-9077,1,scope changed
+TIMOB,TIMOB-9520,2,scope defined (to implement (as a/on) code processor plugin)
+TIMOB,TIMOB-9597,1,scope changed (from AST to code processor)
+TIMOB,TIMOB-9647,1,scope changed
+TMDM,TMDM-10021,1,scope expanded
+TMDM,TMDM-10128,1,scope changed
+TMDM,TMDM-10129,2,scope defined (original one is very vague)
+TMDM,TMDM-10249,0,detail removed
+TMDM,TMDM-10286,0,detail removed
+TMDM,TMDM-10287,0,detail removed
+TMDM,TMDM-10301,0,detail removed
+TMDM,TMDM-10302,0,detail removed
+TMDM,TMDM-10304,0,detail removed
+TMDM,TMDM-10332,0,detail removed
+TMDM,TMDM-10412,0,detail removed
+TMDM,TMDM-10576,2,scope defined
+TMDM,TMDM-11083,0,work items organizing
+TMDM,TMDM-11155,1,scope changed
+TMDM,TMDM-11225,1,scope removed (cancelled ticket)
+TMDM,TMDM-11229,1,scope removed (cancelled ticket)
+TMDM,TMDM-11530,3,detail added - additional description
+TMDM,TMDM-11531,3,detail added - additional description
+TMDM,TMDM-14380,0,work logging
+TMDM,TMDM-8931,1,scope changed (string message was changed)
+TMDM,TMDM-9766,2,scope defined (define what test to add)
+TMDM,TMDM-9767,0,work items organizing
+TUP,TUP-18319,2,scope defined (description was empty at first)
+TUP,TUP-18320,1,scope expanded (to cover show different composite)
+TUP,TUP-18321,1,scope changed
+TUP,TUP-19202,0,rephrasing
+TUP,TUP-20356,3,detail added - additional description
+TUP,TUP-21449,0,typo
+TUP,TUP-21450,0,typo
+TUP,TUP-22095,4,detail added - implementation details
+TUP,TUP-22096,4,detail added - implementation details
+TUP,TUP-22097,2,scope defined
+TUP,TUP-22651,1,scope changed (to test on Ubuntu > Local)
+TUP,TUP-22657,1,scope changed (to test with different build)
+XD,XD-1383,1,scope expanded (for sinks)
+XD,XD-1385,1,scope expanded (for sinks)
+XD,XD-1695,2,scope defined
+XD,XD-20,0,text formatting
+XD,XD-2299,0,rephrasing
+XD,XD-2382,2,scope defined
+XD,XD-2432,2,scope defined (was just a placeholder)
+XD,XD-2433,2,scope defined (was just a placeholder)
+XD,XD-2556,1,scope reduced (not doing on sink module)
+XD,XD-2630,1,scope changed (from spike to actual work)
+XD,XD-2742,2,scope defined (was just a placeholder)
+XD,XD-2743,2,scope defined (for a placeholder)
+XD,XD-2744,0,rephrasing
+XD,XD-2747,2,scope defined (for a placeholder)
+XD,XD-2795,2,scope defined (for a placeholder)
+XD,XD-2797,3,detail added - additional description (add user stories based on existing data)
+XD,XD-2815,0,rephrasing
+XD,XD-3103,3,detail added - additional description
+XD,XD-3105,3,detail added - additional description
+XD,XD-321,1,scope changed
+XD,XD-3227,1,scope changed (from actual work to only spike)
+XD,XD-3228,1,scope changed (to spike)
+XD,XD-3229,1,scope changed (from spike of `SD auto discover endpoint’ to `SCS register to SD’ - A discover B changed to B discover A)
+XD,XD-3233,1,scope changed
+XD,XD-3242,0,rephrasing
+XD,XD-3244,1,scope changed (from copy + rename to move)
+XD,XD-3282,3,detail added - additional description (add user stories based on existing data)
+XD,XD-329,2,scope defined
+XD,XD-330,0,rephrasing
+XD,XD-331,1,scope expanded
+XD,XD-3317,2,scope defined (based on previous spike)
+XD,XD-332,2,scope defined
+XD,XD-3488,3,detail added - additional description (add user stories based on existing data)
+XD,XD-3492,3,detail added - additional description
+XD,XD-3582,3,detail added - additional description
+XD,XD-361,2,scope defined (from shell)
+XD,XD-363,1,scope expanded
+XD,XD-364,0,rephrasing
+XD,XD-3672,1,scope changed (from “move to separate repo” to “move to master”
+XD,XD-3715,3,detail added - additional description (add user stories based on existing data)
+XD,XD-8,4,detail added - implementation details
+XD,XD-948,1,scope changed (to spike)
+XD,XD-949,1,scope changed (to spike)

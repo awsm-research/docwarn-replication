@@ -1,0 +1,51 @@
+project,issue_key,EXTERNAL,AUTHOR1,reason
+DM,DM-11190,2,4,"Add more detail explain about how to implement e.g. query processing is ... and first step is to: return jobID to user as soon as query is submitted, etc."
+DM,DM-11476,0,0,"The log only told about ""each chart on WISE search is updated as follows ..."
+DM,DM-10463,1,1,Change display SDSS time series data to display SDSS and WISE time series data
+DM,DM-1627,1,1,"Later determine scope details need integrate metaserv, imgserv and dbserv and then integrate meta,image and DB under one server and also run all separately."
+DM,DM-16667,4,4,Log detail about need the UI for using TAP services is separate from the UI using the legacy DAX API and keep those two co-exist for a while
+DM,DM-22170,1,1,Add mock controller and add unit tests
+DM,DM-18004,1,1,"Add support for dynamic reloading of the Configuration, Redesigning a hierarchy of classes to support the dynamic reloading of the Configuration, etc."
+DM,DM-24792,4,2,This task is to have this software installed onto the Docker/virtual env environment of the TMA.
+DM,DM-24860,2,2,"defined the scope of the task that needs to be done e.g. create agenda, fact finding TMA related information, etc."
+DM,DM-4482,2,2,"The implementation includes: Marker dropdown list under the marker icon, etc."
+DM,DM-5794,3,3,"This will give user finer control of turning on/off the catalog overlays on one image. However, it is support image"
+DM,DM-7802,2,2,"The work should include the following e.g. LSST search processor doing object and flux id search, etc."
+DM,DM-7802,2,2,"The work should include the following e.g. LSST search processor doing object and flux id search, etc."
+DM,DM-7803,1,1,"If a table contains object IDs that can be used to query time series data, it should add a button to display the time series data"
+DM,DM-7986,1,1,"Change from fix small issues before RC to ""fix circles connecting & add way to reorder image tabs."""
+DM,DM-5276,0,1,"work logging (As of 9/6/2016, the content of dependencies in package.json is listed below"
+TDP,TDP-10033,1,4,"Requirement change from call a new TDP backend endpoint for both legacy mode and Runtime Convergence mode => TDP-9881 change to In Runtime Convergence mode: frontend calls a new TDP backend endpoint => TDP-9881 and In legacy mode: frontend calls the existing legacy ""cancel"" endpoint"
+TDP,TDP-2454,2,2,"Add more details on how this task is to be done e.g. Check a semantic category is created/updated/deleted, new semantic category created on the DQ server side must be available on the Data Prep side immediately, etc."
+TDP,TDP-2798,4,4,"In the note, defined for export menu, if HDFS is selected and if the preparation contains at least one step which will be skipped and display warning message."
+TDP,TDP-2800,0,0,work logging
+TDP,TDP-2549,1,1,Need to upgrade ee compose files and ask team members to upgrade their dev env
+TDP,TDP-2815,1,1,"Change from click on the visual clue to click on icon and defined the current icon + a red dot for last failed, The current icon + a grey dot for last canceled, etc."
+TDP,TDP-2816,4,4,"Dev add more details on how this task is to be done see on ""Possible split:"" or ""Story cuting details"""
+TDP,TDP-3332,2,2,"define the scope see on >>> ""Input data"" or ""Use cases"""
+TDP,TDP-5043,4,4,Need to run export with custom parameters
+TDP,TDP-4137,3,1,Clarification about log message
+TDP,TDP-5776,1,1,"To fix this issue, need to revert code of : https://github.com/Talend/data-prep/pull/1417 and then fix the issue is causing the FAILED status."
+TDP,TDP-6292,4,4,"In ""Technical notes"" add more about Zuul routes should be adapted to hit Catalog stuff"
+TDP,TDP-6547,1,3,"""see sub-tasks for details on each azure envs"" >>> Not sure for sub-tasks may be included new tasks that affect to the requirement"
+TDP,TDP-6941,3,3,The goal is to be able to let TDS (and TPD in the future) uses this new dependency out the box.
+TDP,TDP-6949,1,1,User only can export a old/new preparation. User cannot import the preparation
+TDP,TDP-9014,4,4,"Implement follow by step1 ,2 ,3, ..., 5."
+TDP,TDP-9019,1,1,"Need to test on AZure sandbox, staging and US prod and get or check md5 of the artifacts in TMC Downloads and test case for Hybrid TDP testcase see in jira"
+TDQ,TDQ-10148,4,4,"explain how to implement this task e.g. a question mark icon appears after the checkbox with a tooltip, when the user opens the editor, the checkbox is checked (default behavior), etc."
+TDQ,TDQ-10344,1,1,RMSE evaluation for implicte training (means AUC maybe later)
+TDQ,TDQ-12408,3,3,"Do the same as what is done in tMatchGroup component wizard, in the match analysis and in the match rule editors."
+TDQ,TDQ-14207,2,2,define the scope
+TDQ,TDQ-14368,0,1,"work logging - Tested Ok means it was tested, so work logging"
+TDQ,TDQ-12498,1,1,Upgrade the lib reconciliation version to 0.3.0 in xml
+TDQ,TDQ-13301,4,1,TODO stated that >>> download SourceHanSans-Normal.ttf and put to path ... and the last step change in fonts1284146005640.xml
+TDQ,TDQ-15015,0,0,Only a change of the implementation of the method and display performance results: 75 categories and 145731 documents  in 391 ms
+TDQ,TDQ-13345,1,1,Deleting a category suppresses a list of documents
+TDQ,TDQ-12547,1,1,"See on ""What's done:"" e.g. create a document, delete a category, etc. And see on ""What should be done:"" e.g. add synonyms in a document."
+TDQ,TDQ-14144,4,4,"See on TODO topic e.g. check the coverage of unit test case, provide the API. For pattern or test case result see on ""Specific patterns"" and ""Result"""
+TDQ,TDQ-17122,1,1,"This task not need refactor code, however need summary the select indicator for different database data types"
+TDQ,TDQ-12872,1,1,"Change from uber-type to compound-type, add in Mongo and in Lucene"
+TDQ,TDQ-16893,2,2,define the scope
+TDQ,TDQ-16910,1,1,Update Jackson >= Version 2.9.9
+TDQ,TDQ-16928,4,4,"how to implement see on Technical notes and the test case follow by ""Test"" topic with Scenario1,Scenario2,Scenario3"
+TDQ,TDQ-17157,2,2,define the scope
