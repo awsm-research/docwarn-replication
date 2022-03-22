@@ -1,0 +1,92 @@
+Here we explain how we calculate the metrics that measure the characteristics of a work item at sprint assignment time (i.e., the time when it was assigned to the sprint).
+
+----------------------------------------
+*Pre-Sprint Changes*
+
+We hypothesized that a work item whose documented information is frequently changed before sprint assignment time may also have documentation changes after it is assigned to a sprint.
+Hence, we measure the following three metrics.
+
+- textdesc-change-count: How often the summary and the description of the work item was changed.
+- Method: We count the event in the history log of the work item where the summary or description was changed.
+
+- assignee-change-count: How often the assignee of the work item was changed.
+- Method: We count the event in the history log of the work item where the assignee was changed.
+
+- comment-count: The number of comments that were added to the work item.
+- Method: We count the comments in the work item.
+
+
+----------------------------------------
+*Collaboration*
+
+Our intuition for the collaboration metrics was that the developer who frequently worked with many people might provide better documentation.
+Hence, we measure six collaboration metrics, i.e., in-degree, out-degree, total-degree, kcoreness, clustering-coefficient, closeness-centrality, betweenness-centrality, and eigenvector-centrality.
+
+- Method: To measure these collaboration network metrics, we construct the collaboration network between the work item reporters and other developers (in the past).
+In the network, the nodes are the developers and the edges are the comments in the work items, e.g., A → B means that developer A posted a comment in a work item reported by developer B.
+Noted that when we construct the collaboration network for each work item, we only consider the comments that occurred within the past 30 days before the work item was created.
+We used the Python networkx package (https://networkx.org/) to build the collaboration network and measure eight network metrics of the work item reporter, i.e., in-degree, out-degree, total-degree, kcoreness, clustering-coefficient, closeness-centrality, betweenness-centrality, and eigenvector-centrality.
+
+----------------------------------------
+*Completeness*
+
+We hypothesized that the work item with more complete information should be less likely to be changed. 
+Hence, we measure the following six metrics.
+
+- has-acceptance-criteria: Whether the description text contains acceptance criteria.
+- has-testcases: Whether the description text contains test cases.
+- has-stacktraces: Whether the description text contains stacktraces.
+- number-bullet-tasks: The number of bullets in the description text.
+- number-hyperlinks: The number of hyperlinks in the description text.
+- has-code: Whether the work item contains code snipplet.
+- has-attachments: Whether the work item contains stacktraces.
+
+- Method: We use regular expressions on the description text to find whether it contains acceptance criteria (has-acceptance-criteria), whether it contains test cases (has-testcases), whether it contains stacktraces (has-stacktraces), count the number of bullet tasks (number-bullet-tasks) and count the number of hyperlinks (number-hyperlinks)
+- Method (has-code): We examine the JIRA text formatting notation (https://jira.atlassian.com/secure/WikiRendererHelpAction.jspa) to find whether there is a code snipplet ("{code}") in the description of the work item.
+- Method (has-attachments): We use the JIRA rest API to find whether there is an attachment in the work item or not.
+
+----------------------------------------
+*Primitive Attributes*
+
+It is possible that the documentation of a work item may be changed in specific contexts (e.g., work item type).
+Hence, we measure the following seven metrics.
+
+- workitem-type
+- priority
+- components*
+- number-watchers
+- number-votes
+- has-subtasks
+- has-epic
+
+- Method: We directly extract the seven attributes above from the properties of the work item.
+* Noted that we transform components into numerical form using one-hot encoding technique.
+
+----------------------------------------
+*Past Tendency*
+
+It is possible that the work items that were reported by or assigned to experienced developers may be more stable.
+Hence, we measure the past tendency of the reporter and assignee of the work item under study.
+
+- reporter-workitem-num: The number of work items that were reported by the reporter.
+- reporter-recent-workitem-num: The number of work items that were reported by the reporter within the past 90 days.
+- reporter-stable-docchg-rate: The rate of prior work items that were reported by the reporter with documentation changes.
+- reporter-stable-sprintchg-rate: The rate of prior work items that were reported by the reporter with sprint changes.
+
+- assignee-workitem-num: The number of work items that were assigned to the assignee.
+- assignee-recent-workitem-num: The number of work items that were assigned to the assignee within the past 90 days.
+- assignee-stable-docchg-rate: The rate of prior work items that were assigned to the assignee with documentation changes.
+- assignee-stable-sprintchg-rate: The rate of prior work items that were assigned to the assignee with sprint changes.
+
+- Method: We count the number of work items that were reported by the reporter (or assigned to the assignee) of the work items in the past (reporter-workitem-num, assignee-workitem-num). Then, we filter only the work items that were reported (or assigned) within 90 days (reporter-recent-workitem-num, assignee-recent-workitem-num). After that, we calculate the rate of the reported (or assigned) work items that have documentation changes (reporter-stable-docchg-rate, assignee-stable-docchg-rate) and have sprint changes (reporter-stable-sprintchg-rate, assignee-stable-sprintchg-rate).
+
+----------------------------------------
+*Readability*
+
+We hypothesized that work items that are easier to understand may be less likely to be changed.
+Therefore, we measure seven readability metrics, i.e., flesch, fog, lix, kincaid, ari, coleman-lieu, and smog.
+
+Method: Similar to prior study (https://ieeexplore.ieee.org/abstract/document/8428477/), we use the extraction code of Max Mautner (https://github.com/mmautner/readability) to calculate the seven readability metrics.
+Lastly, we count the word (wordcount) in the summary and description of the work item.
+
+----------------------------------------
